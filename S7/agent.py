@@ -25,9 +25,8 @@ async def main(user_input: str):
         print(f"[agent] Current working directory: {os.getcwd()}")
         
         server_params = StdioServerParameters(
-            command="python",
-            args=["example3.py"],
-            cwd="I:/TSAI/2025/EAG/Session 7/S7"
+            command="uv",
+            args=["run","example3.py"]
         )
 
         try:
